@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2023-08-31T07:44:52.649Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.7.1" etag="hk4L4TDHu5MY4DBPwzy-" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-31T08:18:30.602Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="nnWoO95EKBcPZTKsiddL" version="21.7.1" type="github">
   <diagram name="Page-1" id="rs4M65bj2_6Qbfb5Rqje">
-    <mxGraphModel>
+    <mxGraphModel dx="1873" dy="1708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="NpFgpHgeem3ZGRdub06a-4" value="INTRODUCTION / PREREQS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="70" y="-380" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NpFgpHgeem3ZGRdub06a-5" value="SYNTAX BASICS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="-380" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NpFgpHgeem3ZGRdub06a-7" value="let varName: dataType = value;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="-300" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NpFgpHgeem3ZGRdub06a-8" value="&lt;p style=&quot;border-color: var(--border-color); line-height: 14.4px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; face=&quot;Verdana&quot;&gt;Adding typescript to linux env:&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); line-height: 14.4px;&quot;&gt;npm i -g typescript&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); line-height: 14.4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); line-height: 14.4px;&quot;&gt;check version:&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); line-height: 14.4px;&quot;&gt;tsc -v&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="240" y="-300" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="NpFgpHgeem3ZGRdub06a-9" value="&lt;p style=&quot;border-color: var(--border-color); line-height: 14.4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;compile ts to js:&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); line-height: 14.4px;&quot;&gt;tsc fileName.ts&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="450" y="-300" width="110" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="NpFgpHgeem3ZGRdub06a-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="NpFgpHgeem3ZGRdub06a-11" target="NpFgpHgeem3ZGRdub06a-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NpFgpHgeem3ZGRdub06a-11" value="&lt;p style=&quot;border-color: var(--border-color); line-height: 14.4px;&quot;&gt;generate config file:&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); line-height: 14.4px;&quot;&gt;tsc --init&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;glass=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="-300" width="110" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="NpFgpHgeem3ZGRdub06a-12" value="&lt;p style=&quot;border-color: var(--border-color); line-height: 14.4px;&quot;&gt;mostly used configs:&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); line-height: 14.4px;&quot;&gt;target - target js version&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); line-height: 14.4px;&quot;&gt;rootdir - directory of ts files&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); line-height: 14.4px;&quot;&gt;outdir - directory of js files&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); line-height: 14.4px;&quot;&gt;remove comments - to remove comments from ts to js upon compilation&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="420" y="-90" width="260" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="NpFgpHgeem3ZGRdub06a-14" value="&lt;p style=&quot;border-color: var(--border-color); line-height: 14.4px;&quot;&gt;What is typescript?&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); line-height: 14.4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); line-height: 14.4px;&quot;&gt;-programming language built on top of javascript&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); line-height: 14.4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); line-height: 14.4px;&quot;&gt;-js with type checking&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); line-height: 14.4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); line-height: 14.4px;&quot;&gt;-.ts needs to be compiled to .js&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); line-height: 14.4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="70" y="-300" width="160" height="270" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
